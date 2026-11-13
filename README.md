@@ -63,17 +63,10 @@ git clone <repository-url>
 ```bash
 cd <project-directory>
 ```
-
-3. Update the CSV file path in `Main()` to point to your transaction data:
-
-```python
-file = "path/to/info.csv"
-```
-
-4. Run the application:
+3. Run the application:
 
 ```bash
-python main.py
+python Finance.py ./<path-to-your-csv>
 ```
 
 ## CSV Format
